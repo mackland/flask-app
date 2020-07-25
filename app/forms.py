@@ -48,3 +48,8 @@ class EditProfileForm(FlaskForm):
 
 class EmptyForm(FlaskForm):
     submit = SubmitField('Submit')
+
+
+class PostForm(FlaskForm):
+    post = TextAreaField('Share your thoughts', validators=[DataRequired(), Length(min=1,max=140)])
+    submit = SubmitField('Submit')
