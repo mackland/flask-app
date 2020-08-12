@@ -1,2 +1,2 @@
-# todo-app
+# flask-app
 Blog app in Python using Flask, SQLite, SQLAlchemy
