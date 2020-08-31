@@ -1,2 +1,2 @@
 # todo-app
-Todo app in Python using Flask, PostgreSQL, SQLAlchemy and Boostrap
+Blog app in Python using Flask, SQLite, SQLAlchemy
