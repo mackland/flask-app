@@ -20,6 +20,8 @@ class RegistrationForm(FlaskForm):
     submit = SubmitField('Register')
 
     def validate_username(self, username):
+        print('------- DEBUG ---------')
+        print(User.query.all())
         user = User.query.filter_by(username=username.data).first()
         if user is not None:
             raise ValidationError('Username already taken!')
