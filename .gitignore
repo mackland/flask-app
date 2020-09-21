@@ -1,5 +1,4 @@
 venv/*
 app.db
 .idea/
-migrations/
 logs/
